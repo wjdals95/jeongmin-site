@@ -15,8 +15,8 @@
   max-width: 600px;
   /* background-color: rgb(17, 17, 17); */
 }
-.imgBox2{
-    max-width: 26vw;
+.imgBox2 {
+  max-width: 26vw;
 }
 .imgBox {
   height: 0;
@@ -33,6 +33,7 @@
 }
 
 .right {
+  color: white;
   display: flex;
   flex-direction: column;
   -webkit-box-pack: center;
@@ -80,20 +81,20 @@
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
-  color: hwb(109deg 12% 22%);
+  color: #08FFC8;
 }
 .right section ul li span {
   font-weight: 400;
   opacity: 0.8;
-  color: black;
+  color: white;
 }
 .right .moreBtn {
   padding: 0px 40px;
   border-radius: 26px;
-  background-color: rgb(62 199 31);
-  font-size: 15px;
+  background-color: #08FFC8;
+  font-size: 17px;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: black;
   line-height: 46px;
   letter-spacing: 0.5px;
 }

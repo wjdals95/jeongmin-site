@@ -5,12 +5,12 @@
     padding: 0 10%;
     justify-content: space-between;
     align-items: center;
-    background-color: #008080;
+    background-color: #204969;
   }
   
   .logo {
     font-size: 2rem;
-    color: white;
+    color: FFF7F7;
   }
   
   .nav ul {
@@ -27,12 +27,12 @@
   
   .nav a {
     text-decoration: none;
-    color: #88dfdf;
+    color: #FFF7F7;
   }
-  
+ 
   .nav a:hover,
   .nav a:active,
   .nav a.active {
-    color: #e6fcfc;
+    color: #08FFC8;
   }
   
