@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -15,6 +15,9 @@ body {
 #root main {
   
   min-height: 100vh;
+}
+main{
+  display: block;
 }
 .centered {
   margin: 3rem auto;
