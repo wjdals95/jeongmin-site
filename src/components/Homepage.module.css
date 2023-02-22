@@ -1,0 +1,99 @@
+.homepage {
+  overflow: hidden;
+}
+
+.mains {
+  display: flex;
+  height: 100vh;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.left {
+  flex: 0 0 35%;
+  position: relative;
+  max-width: 600px;
+  /* background-color: rgb(17, 17, 17); */
+}
+.imgBox2{
+    max-width: 26vw;
+}
+.imgBox {
+  height: 0;
+  padding-top: 160%;
+  margin: 0px 0px 0px 30px;
+  background-image: url(../img/myPhoto2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-radius: 15px;
+  box-shadow: rgb(0 0 0 / 90%) 0px 0px 7px;
+  position: relative;
+  z-index: 1;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 10% 0px 7%;
+}
+
+.right .textWrap {
+  margin-bottom: 40px;
+}
+.right .textWrap h2 {
+  font-size: 22px;
+}
+.right .textWrap h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.right .textWrap p {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0px 15% 0px 0px;
+  max-width: 670px;
+  word-break: keep-all;
+}
+.right section {
+  margin-bottom: 40px;
+}
+.right section h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.right section ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right section ul li {
+  width: 50%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: hwb(109deg 12% 22%);
+}
+.right section ul li span {
+  font-weight: 400;
+  opacity: 0.8;
+  color: black;
+}
+.right .moreBtn {
+  padding: 0px 40px;
+  border-radius: 26px;
+  background-color: rgb(62 199 31);
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 46px;
+  letter-spacing: 0.5px;
+}
