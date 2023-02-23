@@ -39,7 +39,17 @@
   font-weight: 600;
   text-align: center;
 }
-
+.mainWrap section::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(37, 37, 37);
+}
 .flexBox{
     display: flex;
     flex-wrap: wrap;

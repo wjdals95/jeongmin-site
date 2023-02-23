@@ -7,7 +7,7 @@ import classes from "./MySkillPage.module.css";
 
 const MySkillPage = () => {
   return (
-    <main className={classes.mainWrap}>
+    <div className={classes.mainWrap}>
       <div className={classes.aboutSec}>
         <h1>ABOUT ME</h1>
         <span className={`${classes.titleBg} ${classes.on} `}>SKILLS</span>
@@ -83,7 +83,7 @@ const MySkillPage = () => {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 
