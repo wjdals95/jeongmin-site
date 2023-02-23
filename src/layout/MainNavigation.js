@@ -24,6 +24,11 @@ const MainNavigation = () => {
               Projects
             </NavLink>
           </li>
+          <li>
+            <a rel="noopener noreferrer" href="https://github.com/wjdals95" target="_blank"  activeClassName={classes.active}>
+              Github
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
