@@ -33,36 +33,35 @@
 
   .container .titleWrap .metaWrap{
     display: flex;
-    font-size: 13px;
+    font-size: 16px;
   }
   .container .titleWrap .metaWrap li{
     margin-right: 20px;
-    line-height: 16px;
+    line-height: 30px;
   }
   .container .titleWrap .metaWrap li img{
     margin-right: 8px;
-    font-size: 16px;
     background-color: #08FFC8;
     vertical-align: top;
 }
   .container .titleWrap h2{
     margin: 6px 0px 0px;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 50px;
   }
   .container .titleWrap .tech{
     display: flex;
     flex-wrap: wrap;
     margin-left: -2px;
     margin-bottom: 10px;
-    padding-top: 3px;
+    padding-top: 10px;
   }
   .container .titleWrap .tech li{
     padding: 4px;
     margin: 0px 2px 5px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 2px;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1;
   }
 
@@ -74,6 +73,8 @@
   }
   .container .bodyWrap .link a{
     margin-bottom: 2px;
+    font-size: 16px;
+    margin-right: 20px;
   }
   .container .bodyWrap .link img{
     
@@ -82,6 +83,7 @@
     text-align: center;
     background-color: #08FFC8;
     vertical-align: middle;
+    font-size: 16px;
 
   }
   .container .bodyWrap .link a span{

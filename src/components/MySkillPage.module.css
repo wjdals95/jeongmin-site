@@ -66,6 +66,7 @@
 .flexBox .skillList .skillLabel{
     margin-bottom: 10px;
     text-align: start;
+    font-size: 1.2rem;
 }
 .flexBox .skillList .skillLabel img{
     color: rgb(255, 180, 0);
