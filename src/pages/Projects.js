@@ -3,7 +3,8 @@ import React from "react";
 import MyProjects from "../components/MyProjects";
 
 const Projects = () => {
-  return <MyProjects />;
+  return <MyProjects />
+
 };
 
 export default Projects;

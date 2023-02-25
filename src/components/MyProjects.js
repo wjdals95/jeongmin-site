@@ -14,15 +14,19 @@ const MyProjects = (props) => {
         <div className={classes.container}>
           <ul>
             <li>
-              <Link to='/projects/projectDetail1'>
+              <Link to="/projects/projectDetail1">
                 <div>
                   <div className={classes.projWrap}>
                     <div className={classes.txtWrap}>
-                      <div className={classes.name}>ProjectName</div>
-                      <span className={classes.time}>0000.00 ~ 0000.00</span>
+                      <div className={classes.name}>Food Order</div>
+                      <span className={classes.time}>2023.01 ~ 2023.02</span>
                       <p>
                         <span className={classes.label}>Description</span>
-                        프로젝트설명
+                        음식 장바구니 프로젝트입니다. 개수를 정해 Add버튼을
+                        클릭하면 장바구니에 담기고 장바구니에서 추가, 제거 할 수
+                        있습니다. 리액트 강의를 보며 만들었으며 리액트 훅인
+                        useContext, useReducer 사용 및 Http를 Firebase를 통해
+                        데이터를 보내고 가져오고 서버 배포 하였습니다.
                       </p>
                     </div>
                     <div className={classes.techWrap}>

@@ -53,6 +53,9 @@
   height: 100%;
   display: inline-block;
 }
+.container > ul > li a:hover{
+    background-color: #204969;
+}
 .container > ul > li a > div {
   height: 100%;
   padding: 20px;
@@ -78,7 +81,7 @@
 }
 .container > ul > li a > div .projWrap .txtWrap p {
   padding: 10px 0px;
-  font-size: 18px;
+  font-size: 17px;
 }
 .container > ul > li a > div .projWrap span.label {
   display: block;
