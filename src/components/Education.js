@@ -13,34 +13,19 @@ const Education = () => {
               <div className={classes.icon}>
                 <img src={iconImg} alt="" />
               </div>
-              <span className={classes.time}>2022.09~2023.03</span>
+              <span className={classes.time}>2023.01~2023.03</span>
               <h4>
-                NCS (스마트웹&콘텐츠개발) UI/UX 반응형 웹
-                <span className={classes.place}>그린 컴퓨터 아카데미</span>
+                React 완벽 가이드
+                <span className={classes.place}>
+                  udemy(Academind by Maximilian Schwarzmüller)
+                </span>
               </h4>
               <p>
-                GUI 디자인 가이드를 바탕으로 UI 구현 표준을 수립하고 UI를
-                제작하는 법을 학습하였습니다.
-                <br />
-                동시에 구현된 UI를 검증하기 위하여 사용성 테스트 계획, 수행,
-                분석, 결과 보고를 수행하는 역량을 길렀습니다.
-              </p>
-            </li>
-            <li>
-            <div className={classes.icon}>
-                <img src={iconImg} alt="" />
-              </div>
-              <span className={classes.time}>2022.09~2023.03</span>
-              <h4>
-                NCS (스마트웹&콘텐츠개발) UI/UX 반응형 웹
-                <span className={classes.place}>그린 컴퓨터 아카데미</span>
-              </h4>
-              <p>
-                GUI 디자인 가이드를 바탕으로 UI 구현 표준을 수립하고 UI를
-                제작하는 법을 학습하였습니다.
-                <br />
-                동시에 구현된 UI를 검증하기 위하여 사용성 테스트 계획, 수행,
-                분석, 결과 보고를 수행하는 역량을 길렀습니다.
+                리액티브 웹 앱의 성능을 향상시키는 법과, React hooks, 상태
+                관리(Redux, Context API), React 심화 개념(useCallback, useMemo,
+                useReducer..), <br />
+                프론트엔드 웹 개발 실무를 경험하기 위한 프로젝트
+                학습을 했습니다.
               </p>
             </li>
             <li>
@@ -53,11 +38,14 @@ const Education = () => {
                 <span className={classes.place}>그린 컴퓨터 아카데미</span>
               </h4>
               <p>
-                GUI 디자인 가이드를 바탕으로 UI 구현 표준을 수립하고 UI를
-                제작하는 법을 학습하였습니다.
+                다양한 스마트기기 플렛폼에 적용 가능한 웹기반의 콘텐츠서비스를
+                기획, 분석, 설계, 구현 테스트, 배포 및 유지 보수하는 능력을
+                길렀습니다. <br />
+                반응형 웹 제작을 위한 마크업 및 스타일링(HTML5 & CSS3),
+                프론트엔드 스크립트 언어(ECMAScript & jQuery)의 동작 패턴 및
+                원리를 이해하고
                 <br />
-                동시에 구현된 UI를 검증하기 위하여 사용성 테스트 계획, 수행,
-                분석, 결과 보고를 수행하는 역량을 길렀습니다.
+                콘텐츠 제작 및 서비스에 적용하는 능력을 길렀습니다.
               </p>
             </li>
           </ul>

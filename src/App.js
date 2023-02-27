@@ -5,7 +5,7 @@ import Layout from "./layout/layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import ProjectDetail from "./components/ProjectDetail";
+import FoodOrder from "./components/FoodOrder";
 
 import './App.css'
 
@@ -29,8 +29,8 @@ function App() {
             <Route path="/projects" exact>
               <Projects />
             </Route>
-            <Route path="/projects/projectDetail1">
-              <ProjectDetail />
+            <Route path="/projects/foodorder">
+              <FoodOrder />
             </Route>
           </Switch>
         </CSSTransition>

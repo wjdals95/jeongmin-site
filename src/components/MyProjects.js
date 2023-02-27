@@ -14,7 +14,7 @@ const MyProjects = (props) => {
         <div className={classes.container}>
           <ul>
             <li>
-              <Link to="/projects/projectDetail1">
+              <Link to="/projects/foodOrder">
                 <div>
                   <div className={classes.projWrap}>
                     <div className={classes.txtWrap}>
@@ -143,7 +143,7 @@ const MyProjects = (props) => {
               </Link>
             </li>
             <li>
-              <Link to="/projects/project-detail">
+              <Link to="/projects/foodorder">
                 <div>
                   <div className={classes.projWrap}>
                     <div className={classes.txtWrap}>

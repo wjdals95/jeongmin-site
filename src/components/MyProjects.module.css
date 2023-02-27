@@ -72,21 +72,21 @@
 }
 .container > ul > li a > div .projWrap .txtWrap .name {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.3;
   color: #08FFC8;
 }
 .container > ul > li a > div .projWrap .txtWrap .time {
-  font-size: 17px;
+  font-size: 15px;
 }
 .container > ul > li a > div .projWrap .txtWrap p {
   padding: 10px 0px;
-  font-size: 17px;
+  font-size: 16px;
 }
 .container > ul > li a > div .projWrap span.label {
   display: block;
   padding-bottom: 3px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 .container > ul > li a > div .projWrap .techWrap ul {
@@ -100,6 +100,6 @@
     margin: 0px 3px 5px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 2px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1;
 }

@@ -59,28 +59,6 @@ const MySkillPage = () => {
               <li>3</li>
             </ul>
           </div>
-          <div className={classes.skillList}>
-            <h3 className={classes.skillLabel}>
-              <img src={Html5} alt="HTML/CSS" />
-              HTML/CSS
-            </h3>
-            <ul className={classes.skillDetail}>
-              <li>HTML5 문법을 알고 있으며 UI를 제작할 수 있습니다.</li>
-              <li>CSS3 문법을 알고 있으며 scss를 사용할 수 있습니다.</li>
-              <li>3</li>
-            </ul>
-          </div>
-          <div className={classes.skillList}>
-            <h3 className={classes.skillLabel}>
-              <img src={Html5} alt="HTML/CSS" />
-              HTML/CSS
-            </h3>
-            <ul className={classes.skillDetail}>
-              <li>HTML5 문법을 알고 있으며 UI를 제작할 수 있습니다.</li>
-              <li>CSS3 문법을 알고 있으며 scss를 사용할 수 있습니다.</li>
-              <li>3</li>
-            </ul>
-          </div>
         </div>
       </section>
     </div>

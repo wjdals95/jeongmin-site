@@ -107,3 +107,18 @@
 .container .bodyWrap ul li video {
   width: 100%;
 }
+
+.backWrap{
+  position: absolute;
+}
+.backWrap .backBtn{
+  background-color: #DADADA;
+  color: #08FFC8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  top: 15%;
+  left: 3%;
+  transition: 0.5s;
+}

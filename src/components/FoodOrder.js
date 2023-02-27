@@ -1,24 +1,31 @@
 import React, { Fragment } from "react";
-
-import peopleIcon from "../img/projectdetail/icons8-사용자-남성-25.png";
-import calender from "../img/projectdetail/icons8-달력-25.png";
-import document from "../img/projectdetail/icons8-document-25.png";
-import githubIcon from "../img/projectdetail/icons8-github의-25.png";
-import foodfullpage from "../img/projectdetail/foodorderapp.png";
+import { Link } from "react-router-dom";
+import peopleIcon from "../img/foodorderImg/icons8-사용자-남성-25.png";
+import calender from "../img/foodorderImg/icons8-달력-25.png";
+import document from "../img/foodorderImg/icons8-document-25.png";
+import githubIcon from "../img/foodorderImg/icons8-github의-25.png";
+import backIcon from "../img/foodorderImg/icons8-끄르다-30.png";
+import foodfullpage from "../img/foodorderImg/foodorderapp.png";
 import foodorder from "../video/foodorder1.mp4";
 import foodorder2 from "../video/foodorder2.mp4";
-import classes from "./ProjectDetail.module.css";
+import classes from "./FoodOrder.module.css";
 
 const ProjectDetail = () => {
   return (
     <Fragment>
+      <div className={classes.backWrap}>
+        <Link to="/projects">
+          <img src={backIcon} className={classes.backBtn} />
+        </Link>
+      </div>
       <div className={classes.aboutSec}>
         <h1>
-          It's 
+          It's
           <span className={classes.point}> Food Order</span>
         </h1>
         <span className={`${classes.titleBg} ${classes.on} `}>WORKS</span>
       </div>
+
       <section>
         <div className={classes.container}>
           <article>
