@@ -6,8 +6,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import FoodOrder from "./components/FoodOrder";
+import Login from "./components/Login";
+import GreatQuotes from './components/GreatQuotes'
 
-import './App.css'
+import "./App.css";
 
 function App() {
   const location = useLocation();
@@ -31,6 +33,12 @@ function App() {
             </Route>
             <Route path="/projects/foodorder">
               <FoodOrder />
+            </Route>
+            <Route path="/projects/login">
+              <Login />
+            </Route>
+            <Route path="/projects/greatQuotes">
+              <GreatQuotes />
             </Route>
           </Switch>
         </CSSTransition>

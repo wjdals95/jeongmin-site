@@ -1,5 +1,5 @@
 import React from "react";
-import iconImg from "../img/icons8-독서-26.png";
+
 import classes from "./Education.module.css";
 
 const Education = () => {
@@ -11,7 +11,7 @@ const Education = () => {
           <ul>
             <li>
               <div className={classes.icon}>
-                <img src={iconImg} alt="" />
+                <i class="fa-solid fa-book-open-reader"></i>
               </div>
               <span className={classes.time}>2023.01~2023.03</span>
               <h4>
@@ -30,7 +30,7 @@ const Education = () => {
             </li>
             <li>
               <div className={classes.icon}>
-                <img src={iconImg} alt="" />
+                <i class="fa-solid fa-book-open-reader"></i>
               </div>
               <span className={classes.time}>2022.09~2023.03</span>
               <h4>

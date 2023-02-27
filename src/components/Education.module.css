@@ -34,10 +34,12 @@
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
+  color: #08ffc8;
   background-color: #FFF7F7;
 }
-.eduWrap > ul > li .icon img{
+.eduWrap > ul > li .icon i{
     margin-top: 7px;
+    font-size: 25px;
 }
 .eduWrap > ul > li .time {
   display: inline-block;

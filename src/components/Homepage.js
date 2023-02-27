@@ -37,6 +37,9 @@ const Homepage = (props) => {
                 <span>Phone:</span> 010.5529.9562
               </li>
               <li>
+                <span>Mbti:</span> ISTJ
+              </li>
+              <li>
                 <span>Addres:</span> 경기도 광주시
               </li>
               <li>

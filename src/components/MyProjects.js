@@ -43,15 +43,17 @@ const MyProjects = (props) => {
               </Link>
             </li>
             <li>
-              <Link to={`/projects/${props.id}`}>
+              <Link to="/projects/login">
                 <div>
                   <div className={classes.projWrap}>
                     <div className={classes.txtWrap}>
-                      <div className={classes.name}>ProjectName</div>
-                      <span className={classes.time}>0000.00 ~ 0000.00</span>
+                      <div className={classes.name}>Login</div>
+                      <span className={classes.time}>2023.01 ~ 2023.01</span>
                       <p>
                         <span className={classes.label}>Description</span>
-                        프로젝트설명
+                        리액트 강의를 보며 Firebase를 통해 로그인 API를
+                        만들었다. 이메일로 회원가입 로그인을 할 수 있고,
+                        비밀번호 변경 및 로그아웃 가능하다
                       </p>
                     </div>
                     <div className={classes.techWrap}>
@@ -68,15 +70,18 @@ const MyProjects = (props) => {
               </Link>
             </li>
             <li>
-              <Link to="/projects/project-detail">
+              <Link to="/projects/greatQuotes">
                 <div>
                   <div className={classes.projWrap}>
                     <div className={classes.txtWrap}>
-                      <div className={classes.name}>ProjectName</div>
-                      <span className={classes.time}>0000.00 ~ 0000.00</span>
+                      <div className={classes.name}>Great Quotes</div>
+                      <span className={classes.time}>2023.01 ~ 2023.01</span>
                       <p>
                         <span className={classes.label}>Description</span>
-                        프로젝트설명
+                        리액트 강의를 보며 만든 게시판 개념의 인용글 작성 할 수
+                        있는 프로젝트입니다. React Router@5 로 만들었으며
+                        Firebase를 통해 Http 데이터 요청 및 받기, 서버 배포
+                        완료했습니다<div className=""></div>
                       </p>
                     </div>
                     <div className={classes.techWrap}>

@@ -1,13 +1,10 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import peopleIcon from "../img/foodorderImg/icons8-사용자-남성-25.png";
-import calender from "../img/foodorderImg/icons8-달력-25.png";
-import document from "../img/foodorderImg/icons8-document-25.png";
-import githubIcon from "../img/foodorderImg/icons8-github의-25.png";
-import backIcon from "../img/foodorderImg/icons8-끄르다-30.png";
+
 import foodfullpage from "../img/foodorderImg/foodorderapp.png";
 import foodorder from "../video/foodorder1.mp4";
 import foodorder2 from "../video/foodorder2.mp4";
+
 import classes from "./FoodOrder.module.css";
 
 const ProjectDetail = () => {
@@ -15,7 +12,7 @@ const ProjectDetail = () => {
     <Fragment>
       <div className={classes.backWrap}>
         <Link to="/projects">
-          <img src={backIcon} className={classes.backBtn} />
+          <i class="fa-solid fa-arrow-left"></i>
         </Link>
       </div>
       <div className={classes.aboutSec}>
@@ -32,11 +29,11 @@ const ProjectDetail = () => {
             <div className={classes.titleWrap}>
               <ul className={classes.metaWrap}>
                 <li>
-                  <img src={peopleIcon} alt="" />
+                  <i class="fa-solid fa-user"></i>
                   100%
                 </li>
                 <li>
-                  <img src={calender} alt="" />
+                  <i class="fa-solid fa-calendar-days"></i>
                   2023.01 ~ 2023.02
                 </li>
               </ul>
@@ -61,7 +58,7 @@ const ProjectDetail = () => {
                   href="https://react-foodorderapp-17c64.web.app/"
                   target="_blank"
                 >
-                  <img src={document} alt="" />
+                  <i class="fa-solid fa-link"></i>
                   Project:
                   <span>Link</span>
                 </a>
@@ -70,7 +67,7 @@ const ProjectDetail = () => {
                   href="https://github.com/wjdals95/udemyProject_foodorder"
                   target="_blank"
                 >
-                  <img src={githubIcon} alt="" />
+                  <i class="fa-brands fa-github"></i>
                   Github:
                   <span>Link</span>
                 </a>
