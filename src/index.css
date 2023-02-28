@@ -20,6 +20,9 @@ body {
   margin: 0;
   background-color: #000;
 }
+#root {
+  overflow: hidden;
+}
 #root main {
   min-height: 100vh;
 }
