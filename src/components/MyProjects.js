@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import classes from "./MyProjects.module.css";
 const MyProjects = (props) => {
-  
   return (
     <Fragment>
       <div className={classes.aboutSec}>
@@ -16,7 +15,7 @@ const MyProjects = (props) => {
             {props.projectdatalist.map((item, index) => {
               return (
                 <li>
-                  <Link to="/projects/foodorder">
+                  <Link to={item.link}>
                     <div>
                       <div className={classes.projWrap}>
                         <div className={classes.txtWrap}>
@@ -30,10 +29,7 @@ const MyProjects = (props) => {
                         <div className={classes.techWrap}>
                           <span className={classes.label}>Tech Stack</span>
                           <ul>
-                            <li>HTML&CSS</li>
-                            <li>Javascript</li>
-                            <li>React</li>
-                            <li>Firebase</li>
+                           {item.tech}
                           </ul>
                         </div>
                       </div>

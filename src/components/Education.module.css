@@ -34,8 +34,8 @@
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
-  color: #08ffc8;
-  background-color: #FFF7F7;
+  color: black;
+  background-color: #08ffc8;
 }
 .eduWrap > ul > li .icon i{
     margin-top: 7px;

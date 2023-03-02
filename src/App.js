@@ -5,9 +5,10 @@ import Layout from "./layout/layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import FoodOrder from "./components/FoodOrder";
-import Login from "./components/Login";
-import GreatQuotes from './components/GreatQuotes'
+import FoodOrder from "./components/myProjects/FoodOrder";
+import Login from "./components/myProjects/Login";
+import GreatQuotes from './components/myProjects/GreatQuotes'
+import ReduxCart from "./components/myProjects/ReduxCart";
 
 import "./App.css";
 
@@ -39,6 +40,12 @@ function App() {
             </Route>
             <Route path="/projects/greatQuotes">
               <GreatQuotes />
+            </Route>
+            <Route path="/projects/reduxCart">
+              <ReduxCart />
+            </Route>
+            <Route path="*">
+              <Home />
             </Route>
           </Switch>
         </CSSTransition>
