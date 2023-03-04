@@ -66,18 +66,19 @@
 .flexBox .skillList .skillLabel{
     margin-bottom: 10px;
     text-align: start;
-    font-size: 1.2rem;
+    
 }
 .flexBox .skillList .skillLabel img{
     color: rgb(255, 180, 0);
     padding-right: 10px;
-    width: 25%;
+    width: 50px;
+    height: 50px;
     vertical-align: text-top;
 }
 .flexBox .skillList .skillDetail li{
     position: relative;
     padding: 0px 0px 10px 30px;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 1.5;
     text-align: start;
 }
@@ -86,7 +87,7 @@
     position: absolute;
     left: 0px;
     top: 13px;
-    width: 20px;
+    width: 12px;
     height: 1px;
     /* width: 20px;
     height: 20px;

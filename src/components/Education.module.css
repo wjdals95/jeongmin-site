@@ -47,7 +47,7 @@
   margin-bottom: 12px;
   border-radius: 20px;
   background-color: rgb(37, 37, 37);
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.6px;
   opacity: 0.8;
@@ -55,19 +55,19 @@
 
 .eduWrap > ul > li > h4 {
   margin: 7px 0px 10px;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 500;
   opacity: 0.8;
 }
 .eduWrap > ul > li > h4 span {
   position: relative;
   padding-left: 26px;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
   opacity: 0.6;
 }
 .eduWrap > ul > li > p{
-    font-size: 16px;
+    font-size: 14px;
 }
 .eduWrap > ul > li > h4 span::before {
   position: absolute;

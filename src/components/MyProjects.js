@@ -12,7 +12,7 @@ const MyProjects = (props) => {
       <section>
         <div className={classes.container}>
           <ul>
-            {props.projectdatalist.map((item, index) => {
+            {props.projectdatalist.map((item) => {
               return (
                 <li>
                   <Link to={item.link}>

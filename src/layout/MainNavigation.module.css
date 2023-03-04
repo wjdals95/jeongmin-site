@@ -9,6 +9,7 @@
     position: fixed;
     z-index: 2;
     opacity: 0.8;
+    transform: translateY(-6px);
   }
   
   .logo {
