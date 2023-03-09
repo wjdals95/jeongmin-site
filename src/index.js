@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div id="stars"></div>
     <div id="stars2"></div>
     <div id="stars3"></div>

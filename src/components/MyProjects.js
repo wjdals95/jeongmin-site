@@ -12,9 +12,9 @@ const MyProjects = (props) => {
       <section>
         <div className={classes.container}>
           <ul>
-            {props.projectdatalist.map((item) => {
+            {props.projectdatalist.map((item,idx) => {
               return (
-                <li>
+                <li key={idx}>
                   <Link to={item.link}>
                     <div>
                       <div className={classes.projWrap}>

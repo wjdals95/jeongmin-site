@@ -12,19 +12,17 @@ const MySkillPage = (props) => {
       <section>
         <h2>MY SKILLS</h2>
         <div className={classes.flexBox}>
-          {props.skillList.map((item) => {
-            return(
-              <div className={classes.skillList}>
-              <h3 className={classes.skillLabel}>
-                <img src={item.src} alt="" />
-                {item.name}
-              </h3>
-              <ul className={classes.skillDetail}>
-               {item.text}
-              </ul>
-            </div>
-            )
-          }) }
+          {props.skillList.map((item, idx) => {
+            return (
+                <div className={classes.skillList} key={idx}>
+                  <h3 className={classes.skillLabel}>
+                    <img src={item.src} alt="" />
+                    {item.name}
+                  </h3>
+                  <ul className={classes.skillDetail}>{item.text}</ul>
+                </div>
+            );
+          })}
         </div>
       </section>
     </div>

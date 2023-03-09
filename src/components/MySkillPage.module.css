@@ -40,57 +40,82 @@
   text-align: center;
 }
 .mainWrap section::after {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    width: 500px;
-    height: 1px;
-    background-color: rgb(37, 37, 37);
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 500px;
+  height: 1px;
+  background-color: rgb(37, 37, 37);
 }
-.flexBox{
-    display: flex;
-    flex-wrap: wrap;
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
 }
-.flexBox .skillList{
-    position: relative;
-    width: calc(33% - 30px);
-    margin: 0px 15px 30px;
-    padding: 20px 30px;
-    border: 1px solid #08FFC8;
-    border-radius: 5px;
-    cursor: default;
+.flexBox .skillList {
+  position: relative;
+  width: calc(33% - 30px);
+  margin: 0px 15px 30px;
+  padding: 20px 30px;
+  border: 1px solid #08ffc8;
+  border-radius: 5px;
+  cursor: default;
 }
-.flexBox .skillList .skillLabel{
-    margin-bottom: 10px;
-    text-align: start;
-    
+.flexBox .skillList .skillLabel {
+  margin-bottom: 10px;
+  text-align: start;
 }
-.flexBox .skillList .skillLabel img{
-    color: rgb(255, 180, 0);
-    padding-right: 10px;
-    width: 50px;
-    height: 50px;
-    vertical-align: text-top;
+.flexBox .skillList .skillLabel img {
+  color: rgb(255, 180, 0);
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  vertical-align: text-top;
 }
-.flexBox .skillList .skillDetail li{
-    position: relative;
-    padding: 0px 0px 10px 30px;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: start;
+.flexBox .skillList .skillDetail li {
+  position: relative;
+  padding: 0px 0px 10px 30px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: start;
 }
-.flexBox .skillList .skillDetail li::before{
-    content: "";
-    position: absolute;
-    left: 0px;
-    top: 13px;
-    width: 12px;
-    height: 1px;
-    /* width: 20px;
+.flexBox .skillList .skillDetail li::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 13px;
+  width: 12px;
+  height: 1px;
+  /* width: 20px;
     height: 20px;
     border-radius: 50%; */
-    background: #08FFC8;
+  background: #08ffc8;
+}
+@media (max-width: 1024px) {
+  /* .flexBox {
+    width: 85%;
+    margin: auto;
+  } */
+  .aboutSec{
+    margin-top: 10%;
+  }
+  .flexBox .skillList {
+    width: calc(50% - 30px);
+  }
+}
+@media (max-width: 720px) {
+  /* .flexBox {
+    width: 90%;
+  } */
+  .aboutSec{
+    margin-top: 20%;
+  }
+  .aboutSec .titleBg.on {
+    letter-spacing: 3px;
+  }
+  .flexBox .skillList {
+    width: calc(100% - 30px);
+  }
 }

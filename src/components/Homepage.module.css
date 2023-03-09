@@ -1,6 +1,5 @@
 .homepage {
   overflow: hidden;
-  
 }
 
 .mains {
@@ -85,7 +84,7 @@
   padding-bottom: 10px;
   font-size: 17px;
   font-weight: 500;
-  color: #08FFC8;
+  color: #08ffc8;
 }
 .right section ul li span {
   font-weight: 400;
@@ -95,10 +94,71 @@
 .right .moreBtn {
   padding: 0px 40px;
   border-radius: 26px;
-  background-color: #08FFC8;
+  background-color: #08ffc8;
   font-size: 15px;
   font-weight: 500;
   color: black;
   line-height: 46px;
   letter-spacing: 0.5px;
+}
+
+@media (max-width: 1024px) {
+  .left .imgBox {
+    width: 49vw;
+    height: 0;
+    padding-top: 445%;
+    margin: 6vh -22vw;
+    background-position: center;
+  }
+  .right {
+    padding-right: 5%;
+    
+  }
+  .right .textWrap {
+    margin-bottom: 40px;
+  }
+  .right .textWrap h1 {
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+  }
+
+  .right section h2 {
+    margin-bottom: 10px;
+  }
+  .right section ul li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .mains {display: block}
+  /* flex-wrap: wrap; */
+  .left {
+    flex: none;
+    width: 100%;
+    overflow: hidden;
+  }
+  .left .imgBox {
+    width: 75vw;
+    height: 0;
+    padding-top: 445%;
+    margin: 8vh 4vw;
+    background-position: center;
+  }
+  .right {
+    width: 100%;
+    flex: 0 0 auto;
+    margin: 5vh 0px;
+    padding-bottom: 5vh;
+  }
+  .right .textWrap h1 {
+    font-size: 35px;
+  }
+
+  .right .textWrap h2 {
+    font-size: 20px;
+  }
+  .right .textWrap p {
+    padding-right: 5%;
+  }
 }

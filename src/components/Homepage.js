@@ -7,7 +7,6 @@ const Homepage = (props) => {
     <div className={classes.homepage}>
       <main className={classes.mains}>
         <div className={classes.left}>
-          <div></div>
 
           <div className={classes.imgBox2}>
             <div className={classes.imgBox}></div>
